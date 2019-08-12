@@ -1,0 +1,13 @@
+@import "variables.css";
+@import "body.css";
+@import "navbar.css";
+@import "header.css";
+@import "about.css";
+@import "project.css";
+@import "contact.css";
+@import "footer.css";
+
+body {
+    background-color: var(--slate);
+    color: whitesmoke; 
+}
