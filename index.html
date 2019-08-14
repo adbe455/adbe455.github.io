@@ -11,12 +11,15 @@
     
     <!-- CSS FILES -->
     <link rel="stylesheet" href="css/main.css">
-    
+
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,300&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-info">
-        <a class="navbar-brand" href="#">Navbar</a>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -24,24 +27,16 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
+              <a class="nav-link" href="#about">ABOUT</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                <a class="nav-link" href="#portfolio">PORTFOLIO</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">CONTACT</a>
             </li>
           </ul>
 
@@ -51,13 +46,16 @@
       <!-- HEADER -->
       <div class="jumbotron jumbotron-fluid">
         <div class="container">
-          <h1 class="display-4">Fluid jumbotron</h1>
-          <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+          <h1 class="display-4">AARON DAVIS</h1>
+          <p class="lead">SOFTWARE DEVELOPER</p>
         </div>
       </div>
 
       <!-- ABOUT -->
       <div id="about">
+          <h2 class="text-center">ABOUT</h2>
+        <br>
+        <br>
           <div class="container">
               <div class="row">
                 <div class="col-sm-4">
@@ -76,7 +74,7 @@
       <!-- CONTACT -->
       <div id="contact">
         <div class="container">
-            <h2 class="text-center text-uppercase">Contact Me</h2>
+            <h2 class="text-center">CONTACT ME</h2>
             <br>
             <div class="row">
                 <div class="col-12">
@@ -85,15 +83,15 @@
 
         <div class="form-group">
           <label for="full-name">Full Name</label>
-          <input class="form-control" type="text" name="name" id="full-name" placeholder="First and Last" required="">
+          <input class="form-control" type="text" name="name" id="full-name" placeholder="John Doe" required="">
         </div>
         <div class="form-group">
             <label for="email-address">Email Address</label>
-            <input class="form-control" type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+            <input class="form-control" type="email" name="_replyto" id="email-address" placeholder="john_doe@domain.tld" required="">
         </div>
         <div class="form-group">
             <label for="message">Message</label>
-            <textarea class="form-control" rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
+            <textarea class="form-control" rows="5" name="message" id="message" placeholder="Your message here" required=""></textarea>
             <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
         </fieldset>
         <br>

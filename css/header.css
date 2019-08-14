@@ -1,5 +1,11 @@
-.jumbotron{
-    background: url(../assets/kristopher-roller-zepnJQycr4U-unsplash.jpg)center bottom;
+.jumbotron {
+    background: url(../assets/johny-goerend-U_diPCXCBxU-unsplash\ edit1.jpg) center bottom;
     background-size: cover;
-    height: 70vh;
+    background-attachment: fixed;
+    height: 90vh;
+    text-align: center;
+}
+
+.display-4 {
+    margin-top: 10vh;
 }

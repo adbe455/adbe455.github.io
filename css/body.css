@@ -1,0 +1,17 @@
+.display-4{
+    margin-top: 10vh;
+    color: var(--light);
+}
+
+.form-control{
+    background-color: var(--light);
+}
+
+#about{
+    margin-top: 10vh;
+    font-weight: 100;
+}
+
+#contact{
+    margin-top: 10vh;
+}

@@ -8,6 +8,7 @@
 @import "footer.css";
 
 body {
-    background-color: var(--slate);
-    color: whitesmoke; 
+    background-color: var(--dark);
+    color: var(--light); 
+    font-family: 'Raleway', sans-serif;
 }

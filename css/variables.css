@@ -1,6 +1,7 @@
 :root {
-    --red: #fe2228;
-    --slate: rgb(25, 25, 25);
-    --blue: #1a4c6f;
-
+    /* https://colorhunt.co/palette/10792 */
+    --dark: #222831;
+    --gray: #393e46;
+    --blue: #00adb5;
+    --light: #eeeeee;
 }

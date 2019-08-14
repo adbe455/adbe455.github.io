@@ -1,0 +1,11 @@
+/* .navbar {
+
+} */
+
+.nav-link {
+    color: var(--light);
+}
+
+.nav-link:hover {
+    color: var(--gray);
+}
