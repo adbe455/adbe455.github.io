@@ -1,11 +1,12 @@
-/* .navbar {
-
-} */
+.navbar {
+    background-color: var(--dark);
+    border-bottom: 2px solid var(--gray);
+}
 
 .nav-link {
     color: var(--light);
 }
 
 .nav-link:hover {
-    color: var(--gray);
+    color: var(--blue);
 }

@@ -3,12 +3,6 @@
 @import "navbar.css";
 @import "header.css";
 @import "about.css";
-@import "project.css";
+@import "projects.css";
 @import "contact.css";
 @import "footer.css";
-
-body {
-    background-color: var(--dark);
-    color: var(--light); 
-    font-family: 'Raleway', sans-serif;
-}

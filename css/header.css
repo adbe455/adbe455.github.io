@@ -7,5 +7,10 @@
 }
 
 .display-4 {
-    margin-top: 10vh;
+    margin-top: 20vh;
+    color: var(--dark);
+}
+
+.lead {
+    color: var(--dark);
 }

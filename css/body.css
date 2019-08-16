@@ -1,17 +1,22 @@
-.display-4{
+body {
+    background-color: var(--dark);
+    color: var(--light); 
+    font-family: 'Raleway', sans-serif;
+}
+
+h2 {
     margin-top: 10vh;
+    margin-bottom: 10vh;
+    background-color: var(--gray);
+    /* border: 4px solid var(--gray); */
+}
+
+a {
+    text-decoration: none;
     color: var(--light);
 }
 
-.form-control{
-    background-color: var(--light);
-}
-
-#about{
-    margin-top: 10vh;
-    font-weight: 100;
-}
-
-#contact{
-    margin-top: 10vh;
+a:hover {
+    text-decoration: none;
+    color: var(--blue);
 }

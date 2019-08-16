@@ -1,0 +1,71 @@
+.portfolio-item {
+    height: 300px;
+    width: 300px;
+    border: 2px solid var(--gray);
+    margin: 10px;
+    text-align: center;
+    border-radius: 3px;
+    transition: 500ms ease;
+}
+
+.portfolio-item:hover {
+    color: var(--light);
+}
+
+/* .project-image {
+    height: 266px;
+    width: 292px;
+    position: absolute;
+    top: 40px;
+    z-index: -1;
+} */
+
+.project-text {
+    background-color: var(--gray);
+    padding-bottom: 2px;
+    transition: 500ms ease;
+    /* text-transform: uppercase; */
+}
+
+.project-text:hover{
+    color: var(--light);
+}
+
+.portfolio-item:hover .project-text {
+    padding-bottom: 270px;
+    transition: 500ms ease;
+}
+
+.project-subtext {
+    font-weight: 100;
+    color: transparent;
+    position: absolute;
+    display: block;
+    left: 50%;
+    margin-left: -140px;
+    top: 10%;
+    transition: 500ms ease;
+    width: 250px;
+    padding-top: 30px;
+    border-top: transparent solid 1px;
+}
+
+.portfolio-item:hover .project-subtext {
+    color: var(--light);
+    transition: 500ms ease;
+    position: absolute;
+    top: 20%;
+    border-top: var(--dark) solid 2px;
+}
+
+/* put newer projects first */
+
+#project-5 {
+    background: url(../assets/static-layout.PNG) center top;
+    background-size: cover;
+}
+
+#project-6 {
+    background: url(../assets/css-creature.PNG) center top;
+    background-size: cover;
+}

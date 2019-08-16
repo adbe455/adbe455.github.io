@@ -1,0 +1,21 @@
+#contact {
+    margin-bottom: 28vh;
+}
+
+.form-control {
+    background-color: var(--light);
+}
+
+.btn {
+    color: var(--light);
+    border-color: var(--light);
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    color: var(--blue);
+}
+
+label {
+    text-transform: uppercase;
+}
