@@ -1,0 +1,34 @@
+#skills {
+    margin-top: 132px;
+}
+
+.skill-text {
+    font-size: 1.4em;
+}
+
+.javascript {
+    height: var(--icon-lg);
+    width: var(--icon-lg);
+    background: url(../assets/java-script.png) center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+}
+
+.html {
+    height: var(--icon-lg);
+    width: var(--icon-lg);
+    background: url(../assets/html.png) center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+}
+
+.css {
+    height: var(--icon-lg);
+    width: var(--icon-lg);
+    background: url(../assets/css.png) center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+}

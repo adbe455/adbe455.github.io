@@ -4,7 +4,6 @@
     border: 2px solid var(--gray);
     margin: 10px;
     text-align: center;
-    border-radius: 3px;
     transition: 500ms ease;
 }
 
@@ -22,18 +21,16 @@
 
 .project-text {
     background-color: var(--gray);
-    padding-bottom: 2px;
+    padding: 4px;
     transition: 500ms ease;
-    /* text-transform: uppercase; */
-}
-
-.project-text:hover{
-    color: var(--light);
+    font-size: 1.2em;
 }
 
 .portfolio-item:hover .project-text {
-    padding-bottom: 270px;
+    /* adjust this to fix hover box height */
+    padding-bottom: 266px;
     transition: 500ms ease;
+    color: var(--light);
 }
 
 .project-subtext {
@@ -46,7 +43,7 @@
     top: 10%;
     transition: 500ms ease;
     width: 250px;
-    padding-top: 30px;
+    padding-top: 26px;
     border-top: transparent solid 1px;
 }
 
@@ -59,6 +56,11 @@
 }
 
 /* put newer projects first */
+
+#project-4 {
+    background: url(../assets/api.PNG) center top;
+    background-size: cover;
+}
 
 #project-5 {
     background: url(../assets/static-layout.PNG) center top;

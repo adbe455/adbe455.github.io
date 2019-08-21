@@ -5,8 +5,8 @@ body {
 }
 
 h2 {
-    margin-top: 10vh;
-    margin-bottom: 10vh;
+    margin-top: 100px;
+    margin-bottom: 100px;
     background-color: var(--gray);
     /* border: 4px solid var(--gray); */
 }
@@ -19,4 +19,9 @@ a {
 a:hover {
     text-decoration: none;
     color: var(--blue);
+}
+
+.attribution {
+    font-size: 0.7em;
+    text-align: center;
 }
