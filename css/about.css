@@ -44,6 +44,12 @@
     display: inline-block;
 }
 
+/* column */
+.about-link:hover {
+    filter: drop-shadow(6px 6px 0 var(--blue))
+}
+
+/* row */
 .about-links {
     margin-top: 100px;
 }

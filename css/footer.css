@@ -2,3 +2,7 @@
     font-size: 0.8em;
     text-align: center;
 }
+
+.attribution a {
+    text-decoration-line: underline;
+}
