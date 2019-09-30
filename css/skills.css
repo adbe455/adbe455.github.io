@@ -7,28 +7,25 @@
 }
 
 .javascript {
-    height: var(--icon-lg);
-    width: var(--icon-lg);
     background: url(../assets/java-script.png) center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: inline-block;
 }
 
 .html {
-    height: var(--icon-lg);
-    width: var(--icon-lg);
     background: url(../assets/html.png) center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: inline-block;
 }
 
 .css {
+    background: url(../assets/css.png) center center;
+}
+
+.react {
+    background: url(../assets/react.svg) center center;
+}
+
+.skill-img {
     height: var(--icon-lg);
     width: var(--icon-lg);
-    background: url(../assets/css.png) center center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     display: inline-block;
 }

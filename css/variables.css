@@ -1,10 +1,20 @@
 :root {
     /* https://colorhunt.co/palette/10792 */
+    --dark: #1a2638;
+    --gray: #484d57f0;
+    --blue: #00adb5;
+    --light: #eeeeee;
+
+    --icon-lg: 240px;
+    --icon-sm: 160px;
+}
+
+/* :root {
     --dark: #1b2430;
     --gray: #40454ef0;
     --blue: #00adb5;
     --light: #eeeeee;
 
-    --icon-lg: 300px;
+    --icon-lg: 240px;
     --icon-sm: 160px;
-}
+} */

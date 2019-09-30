@@ -2,7 +2,6 @@
     height: 300px;
     width: 300px;
     border: 2px solid var(--gray);
-    margin: 10px;
     text-align: center;
     transition: 500ms ease;
 }
@@ -38,13 +37,18 @@
     color: transparent;
     position: absolute;
     display: block;
-    left: 50%;
-    margin-left: -140px;
+    margin-left: 18px;
+    /* margin-left: -140px; */
+    /* text-align: center; */
+    /* justify-content: center; */
     top: 10%;
     transition: 500ms ease;
-    width: 250px;
+    width: 16em;
+    /* width: 50%; */
+    /* margin: 0 auto; */
     padding-top: 26px;
     border-top: transparent solid 1px;
+    
 }
 
 .portfolio-item:hover .project-subtext {
@@ -57,17 +61,27 @@
 
 /* put newer projects first */
 
+#project-5 {
+    background: url(../assets/placeholder.PNG) center top;
+    background-size: cover;
+}
+
 #project-4 {
+    background: url(../assets/pern.PNG) center top;
+    background-size: cover;
+}
+
+#project-3 {
     background: url(../assets/api.PNG) center top;
     background-size: cover;
 }
 
-#project-5 {
+#project-2 {
     background: url(../assets/static-layout.PNG) center top;
     background-size: cover;
 }
 
-#project-6 {
+#project-1 {
     background: url(../assets/css-creature.PNG) center top;
     background-size: cover;
 }
