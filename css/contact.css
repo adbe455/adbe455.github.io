@@ -4,6 +4,7 @@
 
 .form-control {
     background-color: var(--gray);
+    color: whitesmoke;
 }
 
 .btn {
