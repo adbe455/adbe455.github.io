@@ -22,6 +22,10 @@
     background: url(../assets/react.svg) center center;
 }
 
+.angular {
+    background: url(../assets/angular_whiteTransparent.svg) center center;
+}
+
 .skill-img {
     height: var(--icon-lg);
     width: var(--icon-lg);
