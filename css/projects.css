@@ -25,6 +25,10 @@
     font-size: 1.2em;
 }
 
+.portfolio-col>*:hover {
+    color: var(--light);
+}
+
 .portfolio-item:hover .project-text {
     /* adjust this to fix hover box height */
     padding-bottom: 266px;
@@ -62,7 +66,7 @@
 /* put newer projects first */
 
 #project-5 {
-    background: url(../assets/placeholder.PNG) center top;
+    background: url(../assets/crithits.PNG) center top;
     background-size: cover;
 }
 
