@@ -1,6 +1,6 @@
 .portfolio-item {
     height: 300px;
-    width: 300px;
+    width: 310px;
     border: 2px solid var(--gray);
     text-align: center;
     transition: 500ms ease;
@@ -20,9 +20,10 @@
 
 .project-text {
     background-color: var(--gray);
-    padding: 4px;
+    padding: 8px;
     transition: 500ms ease;
     font-size: 1.2em;
+    margin-left: -2px;
 }
 
 .portfolio-col>*:hover {
@@ -31,7 +32,8 @@
 
 .portfolio-item:hover .project-text {
     /* adjust this to fix hover box height */
-    padding-bottom: 266px;
+    padding-bottom: 260px;
+    margin-left: -2px;
     transition: 500ms ease;
     color: var(--light);
 }
